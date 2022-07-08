@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		CF4A0C6C285FFFA3007AAB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4A0C6A285FFFA3007AAB63 /* Main.storyboard */; };
 		CF4A0C6E285FFFA5007AAB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4A0C6D285FFFA5007AAB63 /* Assets.xcassets */; };
 		CF4A0C71285FFFA5007AAB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4A0C6F285FFFA5007AAB63 /* LaunchScreen.storyboard */; };
+		CF4A0C7D2860084F007AAB63 /* free_sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4A0C7A2860084F007AAB63 /* free_sea.jpg */; };
+		CF4A0C7E2860084F007AAB63 /* free_mountains.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4A0C7B2860084F007AAB63 /* free_mountains.jpg */; };
+		CF4A0C7F2860084F007AAB63 /* free_rainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4A0C7C2860084F007AAB63 /* free_rainbow.jpg */; };
+		CF4A0C8128601C9E007AAB63 /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A0C8028601C9E007AAB63 /* ExpansionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CF4A0C6D285FFFA5007AAB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4A0C70285FFFA5007AAB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4A0C72285FFFA5007AAB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4A0C7A2860084F007AAB63 /* free_sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = free_sea.jpg; sourceTree = "<group>"; };
+		CF4A0C7B2860084F007AAB63 /* free_mountains.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = free_mountains.jpg; sourceTree = "<group>"; };
+		CF4A0C7C2860084F007AAB63 /* free_rainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = free_rainbow.jpg; sourceTree = "<group>"; };
+		CF4A0C8028601C9E007AAB63 /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				CF4A0C64285FFFA3007AAB63 /* AppDelegate.swift */,
 				CF4A0C66285FFFA3007AAB63 /* SceneDelegate.swift */,
 				CF4A0C68285FFFA3007AAB63 /* ViewController.swift */,
+				CF4A0C8028601C9E007AAB63 /* ExpansionViewController.swift */,
 				CF4A0C6A285FFFA3007AAB63 /* Main.storyboard */,
+				CF4A0C7B2860084F007AAB63 /* free_mountains.jpg */,
+				CF4A0C7C2860084F007AAB63 /* free_rainbow.jpg */,
+				CF4A0C7A2860084F007AAB63 /* free_sea.jpg */,
 				CF4A0C6D285FFFA5007AAB63 /* Assets.xcassets */,
 				CF4A0C6F285FFFA5007AAB63 /* LaunchScreen.storyboard */,
 				CF4A0C72285FFFA5007AAB63 /* Info.plist */,
@@ -103,7 +115,7 @@
 				};
 			};
 			buildConfigurationList = CF4A0C5C285FFFA3007AAB63 /* Build configuration list for PBXProject "SlideshowApp" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,8 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4A0C71285FFFA5007AAB63 /* LaunchScreen.storyboard in Resources */,
+				CF4A0C7D2860084F007AAB63 /* free_sea.jpg in Resources */,
 				CF4A0C6E285FFFA5007AAB63 /* Assets.xcassets in Resources */,
 				CF4A0C6C285FFFA3007AAB63 /* Main.storyboard in Resources */,
+				CF4A0C7F2860084F007AAB63 /* free_rainbow.jpg in Resources */,
+				CF4A0C7E2860084F007AAB63 /* free_mountains.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4A0C8128601C9E007AAB63 /* ExpansionViewController.swift in Sources */,
 				CF4A0C69285FFFA3007AAB63 /* ViewController.swift in Sources */,
 				CF4A0C65285FFFA3007AAB63 /* AppDelegate.swift in Sources */,
 				CF4A0C67285FFFA3007AAB63 /* SceneDelegate.swift in Sources */,
@@ -294,6 +310,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
